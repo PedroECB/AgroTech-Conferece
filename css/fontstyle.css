@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+                                    /* TIPOGRAFIA */
+ @font-face{
+     src: url('../fonts/permanentMarker/PermanentMarker-Regular.ttf');
+     font-family: 'Permanent Marker';
+     font-weight: bolder;
+ }                                   
+
+ @font-face{
+    src: url('../fonts/RussoOne/RussoOne-Regular.ttf');
+    font-family: 'RussoONe';
+    font-weight: bolder;
+} 
+
+@font-face{
+    src: url('../fonts/FredokaOne/FredokaOne-Regular.ttf');
+    font-family: 'FredokaOne';
+    font-weight: bolder;
+}
+
+
+.fredoka-one{
+    font-family: 'FredokaOne';
+}
+
+
+.RussoONe{
+    font-family: 'RussoOne';
+}
+
+
+
+ a.logo{
+     color: rgb(241, 241, 241) !important;
+     font-family: 'Permanent Marker';
+     font-size: 25px;
+ }
+
+
+ .logo{
+    color: rgb(241, 241, 241) !important;
+    font-family: 'Permanent Marker';
+ }
+
+
+ .main-paragraph{
+     color:white;
+     font-size: 25px;
+     padding: 0px 10px;
+     line-height: 28px;
+     overflow: hidden;
+ }
