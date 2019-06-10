@@ -70,7 +70,7 @@ div.logo-principal{
 
 
 
-                                      /* Informação principal  */
+                                      /* Informação Principal  */
 
 
 
@@ -82,7 +82,7 @@ div.logo-principal{
     font-size: 20px;
 }
 
-                                         /* Público alvo */
+                                         /* Público Alvo */
 
 .public-target{
     background-color:rgb(7, 90, 32);
@@ -97,3 +97,54 @@ div.logo-principal{
 
 
 .ps{margin-bottom: 1000px;}
+
+
+
+
+                                    /* Informação Principal 2 */
+
+
+
+.main-info-2{
+    
+}
+
+.main-info-2-paragraph{
+    font-size: 20px;
+    
+}
+
+.img-borded{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-borded:hover{
+    opacity: 0.8;
+}
+
+
+
+                                        /* Informação Principal 3 */
+
+
+/* .main-info-3{
+   
+}  */
+
+
+
+                                    /* Palestrantes */
+
+.palestrantes-block{
+    /* border: 3px solid black; */
+    background-color: rgb(7, 90, 32);
+}
+
+.circle{
+    border-radius: 50px;
+}
+
+.cargo{
+    color: aquamarine;
+}
