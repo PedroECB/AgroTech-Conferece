@@ -29,6 +29,9 @@
     font-family: 'RussoOne';
 }
 
+.text-green{
+    color: rgb(10, 121, 43);
+}
 
 
  a.logo{
@@ -51,3 +54,7 @@
      line-height: 28px;
      overflow: hidden;
  }
+
+.btn-express{
+    font-family:Arial, Helvetica, sans-serif;
+}

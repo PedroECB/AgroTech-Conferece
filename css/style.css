@@ -36,15 +36,16 @@
     color:white !important;
 }
 
+
 div.logo-principal{
    
-   position: absolute;
-   height: 70%;
-   width: 100%;
-   /* border:3px solid black; */
+   position: relative;
+   height: 500px;
+   width: 100%; 
    background: url('../img/logo-main.jpg');
    background-attachment: fixed;
    background-size:initial;
+   overflow: hidden;
 }
 
 .overlay{
@@ -66,9 +67,33 @@ div.logo-principal{
     font-size:50px;
 }
 
-/* body{
-    background: url('../img/logo-main.jpg') repeat-y;
-    background-size:contain;
-} */
+
+
+
+                                      /* Informação principal  */
+
+
+
+.main-info{
+    position: relative;
+}
+
+.main-info-paragraph{
+    font-size: 20px;
+}
+
+                                         /* Público alvo */
+
+.public-target{
+    background-color:rgb(7, 90, 32);
+    height:fit-content;
+}
+
+.public-target-card{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
 
 .ps{margin-bottom: 1000px;}
