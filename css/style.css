@@ -134,7 +134,7 @@ div.logo-principal{
 
 
 
-                                    /* Palestrantes */
+                                              /* Palestrantes */
 
 .palestrantes-block{
     /* border: 3px solid black; */
@@ -147,4 +147,86 @@ div.logo-principal{
 
 .cargo{
     color: aquamarine;
+}
+
+                                        /* Ingressos */
+
+
+.ingressos-block{
+    border: 3px solid black;
+}
+
+.ingressos-block h3{
+    font-size: 40px;
+}
+
+.price-card{
+    /* border: 3px solid black; */
+    background-color: rgb(7, 90, 32);
+    border-radius: 15px;
+    max-width: 450px;
+    margin:10px auto;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+
+.category-text{
+    font-size: 1.6em;
+    text-shadow: 2px 2px 3px black;
+}
+
+.inclusao-span{
+    font-size: 1.5em;
+    text-shadow: 0px 0px 5px  black;
+}
+
+.inclusoes-list{
+    color:white;
+    font-family: 'FredokaOne';
+    font-size: 1.3em;
+    text-shadow: 0px 2px 3px black;
+    text-decoration: underline;
+}
+
+.percent-off{
+    box-shadow: 0px 0px 5px black;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin: 60px auto;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+                            /* Formatação de preços */
+.prices{
+    text-align: center;
+    font-style: italic;
+}
+
+.price-x{
+    display: ;
+    color: rgb(200, 219, 219);
+    font-weight: bolder;
+    font-family: 'RussoONe';
+    font-size: 1.2em;
+}
+
+.price-real{
+    display: block;
+    color: white;
+    font-weight: bolder;
+    font-family: 'RussoONe';
+    font-size: 2.7em;
+    text-shadow: 0px 2px 3px black;
+}
+
+.price-vista{
+    display: block;
+    margin-top: -15px;
+    color: white;
+    font-weight:normal;
+    font-family: 'RussoONe';
+    font-size:0.4em;
+    text-shadow: 0px 2px 3px black;
 }
