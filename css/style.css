@@ -109,6 +109,10 @@ div.logo-principal{
     
 }
 
+.subs{
+    font-size: 2em;
+}
+
 .main-info-2-paragraph{
     font-size: 20px;
     
@@ -153,7 +157,7 @@ div.logo-principal{
 
 
 .ingressos-block{
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 .ingressos-block h3{
@@ -171,8 +175,10 @@ div.logo-principal{
 
 
 .category-text{
-    font-size: 1.6em;
+    font-size: 2.5em;
     text-shadow: 2px 2px 3px black;
+    overflow: hidden;
+    font-weight: bolder;
 }
 
 .inclusao-span{

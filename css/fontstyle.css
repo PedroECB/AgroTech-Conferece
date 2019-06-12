@@ -29,6 +29,11 @@
     font-family: 'RussoOne';
 }
 
+.permanent-marker{
+    font-family: 'Permanent Marker';
+    overflow: hidden;
+}
+
 .text-green{
     color: rgb(10, 121, 43);
 }
