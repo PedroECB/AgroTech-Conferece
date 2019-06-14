@@ -29,6 +29,7 @@
 
 .navbar-dark .navbar-toggler{
     color:white !important;
+    border: 2px solid white;
     border-color: white;
 }
 
@@ -301,4 +302,18 @@ div.logo-principal{
 
 .autor i{
     font-size: 25px;
+}
+
+
+
+                                            /* Media Queries */
+
+
+                            /* Barra de navegação  */
+@media(max-width:991px){
+
+    .navbar a.nav-link{
+        font-size: 0.7em;
+        text-align: center;
+    }
 }
