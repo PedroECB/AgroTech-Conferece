@@ -194,6 +194,10 @@ div.logo-principal{
     text-decoration: underline;
 }
 
+.inclusoes-list li{
+    margin-left: -50px;
+}
+
 .percent-off{
     box-shadow: 0px 0px 5px black;
     font-size: 30px;
@@ -235,4 +239,66 @@ div.logo-principal{
     font-family: 'RussoONe';
     font-size:0.4em;
     text-shadow: 0px 2px 3px black;
+}
+
+
+                                            /* Patrocinadores */
+
+
+
+.patrocinadores{
+    
+}
+
+.patrocinadores h3{
+    font-size:2.0em;
+    font-weight: bolder;
+}
+
+.patrocinadores img{
+    max-width: 150px;
+    margin: 20px auto;
+   
+}
+
+
+                                           /* Footer */
+
+.footer{
+    background-color: rgb(7, 90, 32);
+}
+
+.logo-footer{
+    color: white;
+    font-family: 'Permanent Marker';
+    font-size: 2.8em;
+}
+
+.list-footer a{
+    color: white !important;
+    line-height: 35px;
+}
+
+.list-footer li{
+    margin-left: -50px;
+}
+
+.media-icons{
+    color: white;
+    font-size: 2em;
+}
+
+.autor a{
+    color: white;
+}
+
+.autor-text{
+    margin-top:-10px;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.autor i{
+    font-size: 25px;
 }
