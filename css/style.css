@@ -29,6 +29,7 @@
 
 .navbar-dark .navbar-toggler{
     color:white !important;
+    border: 2px solid white;
     border-color: white;
 }
 
@@ -63,7 +64,6 @@ div.logo-principal{
     margin-top: 150px;
     text-align: center;
     font-weight: bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:50px;
 }
 
@@ -129,12 +129,7 @@ div.logo-principal{
 
 
 
-                                        /* Informação Principal 3 */
 
-
-/* .main-info-3{
-   
-}  */
 
 
 
@@ -301,4 +296,115 @@ div.logo-principal{
 
 .autor i{
     font-size: 25px;
+}
+
+
+
+                                            /* Media Queries */
+
+
+                            /* Barra de navegação  */
+@media(max-width:991px){
+
+    .navbar a.nav-link{
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+
+                               /* Logo principal */
+
+@media(max-width:410px){
+
+        /* Logo principal */
+
+div.logo-principal{
+    height: 450px;
+}
+
+    .logo{
+        font-size: 2.3em;
+    }
+
+   p.main-paragraph{
+       font-size: 1.4em;
+   }
+
+
+   /* Informação principal */
+
+   .main-info h2{
+       font-size: 1.4em;
+   }
+
+   .subs{
+       font-size: 1.4em;
+   }
+
+   .main-info-paragraph {
+       font-size: 0.9em;
+   }
+
+   /* Informação principal 2 */
+
+   .main-info-2 h3{
+       font-size: 1.6em;
+   }
+
+   .main-info-2-paragraph{
+        font-size: 1em;
+   }
+
+   .p-5{
+       padding-left: 1rem!important;
+       padding-right: 1rem !important; 
+   }
+
+    /* Público Alvo */
+
+
+.public-target{
+    padding-left: 1em !important;
+}
+
+.public-target h2{
+    margin-bottom: 100px;
+}
+
+.public-target-card{
+    padding-top: 5px !important;
+}
+
+
+
+   /* Ingressos */
+
+
+
+   .price-card{
+       max-width: 300px;
+   }
+
+   .ingressos-block h3{
+    font-size: 2em;
+}
+
+.category-text{
+    font-size: 1.6em;
+}
+
+.inclusao-span{
+    font-size: 1.5em;
+}
+
+.inclusoes-list{
+    font-size: 1.2em;
+}
+
+.percent-off{
+    width: 250px;
+    margin: 30px auto;
+}
+
 }
